@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./js/index.js 10 10",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
