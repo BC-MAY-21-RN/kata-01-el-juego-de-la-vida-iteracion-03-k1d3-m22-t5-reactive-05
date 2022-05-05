@@ -22,8 +22,13 @@ class Celula {
   }
 
   // Metodo de la clase que muestra la posicion en X e Y de la celula
-  getPositionXY() {
-    return [this.xPosition, this.yPosition];
+  getPositionX() {
+    return this.xPosition;
+    // console.log(`[ ${this.xPosition} , ${this.yPosition} ]`);
+  }
+
+  getPositionY() {
+    return this.yPosition;
     // console.log(`[ ${this.xPosition} , ${this.yPosition} ]`);
   }
 

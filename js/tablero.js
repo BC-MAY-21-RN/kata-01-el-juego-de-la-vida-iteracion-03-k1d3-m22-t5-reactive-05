@@ -57,15 +57,20 @@ class Tablero {
   }
 
   cambiosEstado(cantVecinos, posX, posY, estado) {
+    let nuevoEstado;
     if (estado === 1) {
       if (cantVecinos === 3 || cantVecinos === 2) {
         this.estructura[posX][posY].estado = 1;
+        nuevoEstado = 1;
       } else {
         this.estructura[posX][posY].estado = 0;
+        nuevoEstado = 0;
       }
     } else if (cantVecinos === 3) {
       this.estructura[posX][posY].estado = 1;
+      nuevoEstado = 1;
     }
+    return nuevoEstado;
   }
 }
 
