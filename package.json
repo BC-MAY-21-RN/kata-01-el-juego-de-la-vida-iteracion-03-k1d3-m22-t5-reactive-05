@@ -1,0 +1,22 @@
+{
+  "name": "kata-01-el-juego-de-la-vida-iteracion-02-k1d1-m22-t1",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](img/logo-bc.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BC-MAY-21-RN/kata-01-el-juego-de-la-vida-iteracion-02-k1d1-m22-t1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BC-MAY-21-RN/kata-01-el-juego-de-la-vida-iteracion-02-k1d1-m22-t1/issues"
+  },
+  "homepage": "https://github.com/BC-MAY-21-RN/kata-01-el-juego-de-la-vida-iteracion-02-k1d1-m22-t1#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
